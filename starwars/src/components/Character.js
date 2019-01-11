@@ -1,5 +1,6 @@
 import React from "react";
 
+
 import './StarWars.css'
 
 function Character (props) {
@@ -10,6 +11,7 @@ function Character (props) {
       <p>Height: {props.character.height}</p>
       <p>Mass: {props.character.mass}</p>
     </div>
+    
   )
 }
 
